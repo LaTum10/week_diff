@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Zora's weeks</title>
+    </head>
+    <body>
+        Today: {{today}} <br>
+        <br>
+        Zora's birth: {{zora_dob}} <br>
+        Zora's age: {{zora_age.0}} weeks 
+        {{zora_age.1}} day{{ zora_age.1|pluralize:",s" }} <br>
+        <br>
+        Zora's predicted birth: {{zora_pred_dob}} <br>
+        Time since predicted birth: 
+        {{zora_age_since_pred.0}} weeks 
+        {{zora_age_since_pred.1}} 
+        day{{ zora_age_since_pred.1|pluralize:",s" }} <br>
+        
+    </body>
+</html>
